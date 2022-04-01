@@ -1,0 +1,220 @@
+h1{
+	text-align: left;
+	padding-left: 1em;
+}
+
+#ancla{
+	margin: 108px;
+	width: 600px;
+	padding-left: 50px;
+	margin-left: 20px;
+}
+
+body{
+	margin: 10px;
+	padding: 45px;
+	background-image:url(imagenes/tricolor.jpg);
+	min-width: auto;
+	max-width: inherit;
+}
+.contenedor{
+	max-width: 1000px;
+	height: 1280px;
+	}
+
+img{
+	padding-left:10px;
+	}
+p{
+	
+	margin-left: 10px;
+	
+	}
+h2{
+	line-height: 30px;
+	margin-left: 15px;
+	
+}
+
+
+.datos{
+	text-align: left;
+}
+div{
+	text-align:left;
+}
+header ul{
+	float: left;
+	padding: 40px;
+	
+}
+
+header ul{
+	margin: -87px;
+}
+#ve{
+	width: 200px;
+	margin: 0px;
+	margin-left: 740px;
+	margin-top: -40px;
+}
+
+#ve #home a{background-position: -15px 0px;}
+
+
+
+#ve #itinerario a{background-position: -95px 0;}
+
+
+
+#ve #eventos a{background-position: -176px 0;}
+
+
+#ve #formulario a{background-position: -336px 0;}
+
+#ve #formulario a:hover{background-position: -336px  -341px;}
+
+#ve #restaurantes a{background-position: -255px 0;}
+
+
+#ves ul li a{
+	display: inline-block;
+	background: url('css_sprites.png');
+	width: 51px;
+	height: 60px;
+	font-size:0px;
+	}
+#ves{
+	width: 200px;
+	margin: 60px;
+	margin-left: 708px;
+	margin-top: -46px;
+}
+#ves #home a{background-position: -15px -11px;}
+
+#ves #home a:hover{background-position: -14px -19px;}
+
+#ves #itinerario a{background-position: -95px -10px;}
+
+#ves #itinerario a:hover{background-position: -95px -100px;}
+
+#ves #eventos a{background-position: -175px -11px;}
+
+#ves #eventos a:hover{background-position: -176px  -181px;}
+
+#ves #concurso a{background-position: -335px -10px;}
+
+#ves #concurso a:hover{background-position: -336px  -341px;}
+
+#ves #restaurantes a{background-position: -256px -9px;}
+
+#ves #restaurantes a:hover{background-position: -255px  -260px;}
+
+a{
+	margin:2px;
+}
+header div{
+	width: 1000px;
+	margin: auto;
+}
+.restaurantes {
+    
+    padding: 43px;
+    
+}
+figure {
+   border: 1px #2d5f7b solid;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15px;
+    margin: auto
+}
+
+figure picture {
+    width: 75%;
+}
+
+figcaption {
+	background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+    width: 25%;
+}
+.restaurantes figcaption {
+    width: 100%;
+}
+#ve{
+	width: 200px;
+	margin: 0px;
+	margin-left: 701px;
+	margin-top: -40px;
+}
+
+#img{
+
+max-width:94%;
+
+}
+article header{
+	background: none;
+	border: none;
+}
+iframe{margin-left: 11px;}
+.columnas{
+	display: inline-block;
+	width: 469px;
+}
+.columnas .negrito{
+	background: #c50000;
+	color: #ffffff;
+    font-size: 13px;
+}
+legend {text-align:center;}
+fieldset {line-height: 40px;}
+footer{
+	text-align: left;
+    background-color: #002586;
+	padding: 20px;
+	width: 980px;
+}
+footer p{ 
+	margin: 0px; 
+	color: white;
+}
+
+
+
+#btn{
+	display: block;
+	float:right;
+	}
+#lim{
+	display:block;
+	float:right;
+
+}	
+#par{
+    float: right;
+    }
+   
+	
+	#estreno{
+	text-align:center;
+}
+
+.parrafo{
+
+text-align: left;
+}
+footer{
+text-align: left;
+    background-color: #002586;
+    padding: 10px;
+    width: 980px;
+}
+
+}
+footer p a{
+	color: #d01111;
+}

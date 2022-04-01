@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="es-AR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Formulario</title>
+	<script src="scripts/prefixfree.min.js"></script>
+	<script src="scripts/html5shiv.js"></script>
+	<link rel="stylesheet" href="estilos.css" />
+	<link rel="stylesheet" href="estilos_tablet.css" media="screen and (min-width: 481px)" />
+	<link rel="stylesheet" href="estilos_pc.css" media="screen and (min-width: 1280px)" />
+	<link rel="shortcut icon" href="icono/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<div class="contenedor">
+	<header>	
+	<h1>Formulario</h1>
+		<nav id="ves">
+					<ul>
+						<li id="home"><a href= index.html >Home</a></li>
+						<li id="itinerario"><a href= itinerario.html >Itinerario </a></li>
+						<li id="eventos"><a href= eventos.html >Eventos</a></li>
+						<li id="restaurantes"><a href= restaurantes.html >Restaurantes</a></li>
+						<li id="formulario"><a href= formulario.html > Formulario</a></li>
+					</ul>
+		</nav>
+	</header>
+	<main id="for">
+		<h2 id="estreno">VUELVE ZERES EN EL EMERGENTE BAR</h2>
+		<div id="img">
+		<picture>
+			<source media="(max-width: 480px)" srcset="imagenes/zereschico.jpg" />
+			<img src="imagenes/zeres-mediano.jpg" alt="Banda de rock zeres" />
+		
+		</picture>
+		
+		</div>
+		<p class="parrafo">La banda platense vuelve a los ruedos y se presentara este sábado 15 de diciembre a las 22 hs en el emergente bar ,de una manera distinta ya que lo haran por primera vez vía streaming.</p>
+		
+		<h3 class="parrafo">¿Queres ver el show? Sorteamos dos espacios</h3>
+			
+			<p class="parrafo">Para verlo será requisito indispensable contar con entrada.Desde este espacio se sortearan dos lugares , los cuales se obtendran llenando el siguiente formulario con los siguientes pasos.</p>
+
+			<ul>
+			
+			<li class="parrafo">Presentar nombre, apellido y ultimos tres numeros del dni</li>
+			<li class="parrafo">Presentar mail</li>
+			<li class="parrafo">Seleccionar un tema favorito de su disco</li>
+			<li class="parrafo">Presentar un video de no menos de 30 segundos explicandonos porque crees mereces ser el ganador</li>
+			
+			</ul>
+		<form action="gracias.html" method="post" enctype="multipart/form-data">
+			
+		<fieldset>
+	
+			<legend><span>Datos a completar</span></legend>
+
+			<div>
+				<span>Nombre Y Apellido</span>
+				<input type="text" name="nombre" />
+			</div>
+			
+			<div>
+				<span>Email</span>
+				<input type="email" name="correo" />
+			</div>
+			
+			<div>
+				<span>Ulitmos numeros del dni</span>
+				<input type="number" name="dni" placeholder="Por favor inserta tus tres ultimos numeros de tu dni" value="000"/>
+			</div>
+			
+			<div>
+			<span>Cancion favorita</span>
+			<select name="canciones"> 
+			<option value="S">Sofocada</option> 
+			<option value="VT">Vacío Temporal</option> 
+			<option value="R">Respuestas</option>
+			<option value="TCS">Tal Como Sos</option> 
+			<option value="NV">No Ves</option> 
+			<option value="D">Distantes</option>
+			</select> 
+			</div>
+			
+
+			
+			<div>
+			<span>Video</span>
+			<input id="video" type="file" name="archivo" accept="video/mp4"/>
+			</div>
+		
+		
+			<div>
+				<input id="par" type="submit" value="Participar" />
+				<input id="lim" type="reset" value="Limpiar todo" />
+			</div>
+		
+		</fieldset>
+
+		</form>
+		</main>
+	</div>
+</body>
+</html>
